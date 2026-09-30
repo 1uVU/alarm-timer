@@ -6,6 +6,6 @@ One might find it convenient to launch it with such Bash funtion:
 alarm () 
 { 
     local s=$(date +%H%M%S);
-    kitty --detach --class "alarm-$s" "$HOME/CS/SoftwareDevelopment/MySoftware/Python/clock/clock.py"
+    kitty --detach --class "alarm-$s" "$HOME/my-software/Python/clock/clock.py"
 }
 ```
